@@ -249,25 +249,25 @@ I don't have a lot of tutorials on NodeJS that I recomend but if you want to pla
 
 
 ###Step 9:
-[Express JS](http://expressjs.com/) is a
+[Express JS](http://expressjs.com/) is a framework for quickly building Sever Side Web Applications using node:
 
-####Basic Setup
+Start out by [Installing](http://expressjs.com/starter/installing.html) express and continuing through their Getting Started and Guide section.
 
--Local host
-
-####Routes
-
-####Using Middleware
+Their guide section is fairly robust starting with [Routing](http://expressjs.com/guide/routing.html) and [Using Middleware](http://expressjs.com/guide/using-middleware.html) and going through advanced topics.
 
 #####Common Middleware:
+Check out the common [3rd party middleware](http://expressjs.com/resources/middleware.html)
 
-* Passport JS
-
-####Building Middleware
+Not included in this list but vital is [Passport JS](http://passportjs.org/)
 
 
 ###Step 10:
-Saving Data with MongoDB
+Saving Data with [MongoDB](http://www.mongodb.org/).
+Start by going over the [in browser demo for mongo](http://try.mongodb.org/?_ga=1.263434828.1335229757.1422827841).
+
+Once you feel comfortable you will want to [install MongoDB locally](https://www.mongodb.org/downloads?_ga=1.260764237.1335229757.1422827841) and play around locally.
+
+Finally start playing around with [Mongoose.js](http://mongoosejs.com/), the NodeJS package that we will use to talk to the MongoDB Database.
 
 -
 
