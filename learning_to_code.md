@@ -91,13 +91,13 @@ I would NOT bother to go through the tutorials on W3 but I would make it a point
 
 #####HTML:
 
-History - xml - html - 
+
 
 The DOM - A living breathing thing
 HTML is just a blueprint
 
 
-####Notes on asset paths:
+####Notes on "paths":
 
 Say for example you are editing the following web page: `http://mywebsite.com/dir1/dir2/page.html`
 
@@ -123,8 +123,7 @@ You might be tempted to get side tracked learning everything these tutorials rec
 I suggest you start by familarizing your self(NOT MEMORIZING) the [W3 Schools](http://www.w3schools.com/html/]
 
 
-Areas I suggest you skip:
-* Tables
+Stop when you hit the section on **HTML Tables** and return to guide for the next steps, Any thing past that is not essential to moving tward the goal of this guide so skip it for now but feel free to come back and study later.
 
 ###Step 4:
 HTML by nature does not have much brains behind it, its purpus is primarily to look display information in a pretty way.
@@ -133,16 +132,21 @@ Modern HTML/HTML5 has a little but is still limited.
 
 This is where JavaScript comes into play. Javascript allows you to create interactive websites
 
-[W3Schools JavaScript](http://www.w3schools.com/js/default.asp)
+Check out the [W3Schools JavaScript](http://www.w3schools.com/js/default.asp)
 
-####Advanced JS:
-
-#####Non-Blocking:
-
-#####Async:
+####JavaScript Fundementals:
+There are a couple of interesting things that make JavaScript as a language unique. Other languages typically don't have the following things so make sure you understand these principals.
 
 #####Scope/Closures:
+[Scope](http://www.w3schools.com/js/js_scope.asp)
+[Closures](http://www.w3schools.com/js/js_function_closures.asp)
+#####Non-Blocking/Async:
 
+
+####JavaScript in the browser:
+Once you are familar with Javascript fundementials
+
+[Javascript and the Browser's DOM](http://www.w3schools.com/js/js_htmldom.asp)
 
 
 ###Step 5:
