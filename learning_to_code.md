@@ -117,7 +117,7 @@ Now assuming you are on an https `<img src="//otherwebiste.com/image.jpg">` Woul
 
 
 
-###Step 3:
+###Step 2:
 Since I am not going to even try and compete with the sheer amount of free tutorials on the web and I often use the exact same tutorials as a reference as I build my projects I will now refer you to a series of web tutorials.
 
 ####Warning:
@@ -129,7 +129,7 @@ I suggest you start by familarizing your self(NOT MEMORIZING) the [W3 Schools](h
 
 Stop when you hit the section on **HTML Tables** and return to guide for the next steps, Any thing past that is not essential to moving tward the goal of this guide so skip it for now but feel free to come back and study later.
 
-###Step 4:
+###Step 3:
 HTML by nature does not have much brains behind it, its purpus is primarily to look display information in a pretty way.
 Originally HTML was not really intended to perform logical calculations or be interactive beyond linking to other pages.
 Modern HTML/HTML5 has a little but is still limited.
@@ -153,7 +153,7 @@ Once you are familar with Javascript fundementials
 [Javascript and the Browser's DOM](http://www.w3schools.com/js/js_htmldom.asp)
 
 
-###Step 5:
+###Step 4:
 The next step is to get familar with one of the tools that can be used to make development easier.
 So far in this guide you have been working with basic js.
 Almost every major web application uses these **Frameworks** to make development easier.
@@ -175,8 +175,11 @@ Their getting started page is overly complex. To keep from getting overwhelmed I
 
 
 
-###Step 7:
-Learn a bad ass framework, Angular
+###Step 5:
+Now it is time to learn a bad ass framework, AngularJS. Angualr is a next generation browswer based framework for building really interactive web applications.
+It is quite powerful.
+
+I suggest you start by following the free tutorial on [The Angular homepage](http://campus.codeschool.com/courses/shaping-up-with-angular-js/level/1/section/2/our-first-controller).
 
 
 
