@@ -198,14 +198,57 @@ I suggest you start by following the free tutorial on [The Angular homepage](htt
 ####http resources
 
 ###Step 8:
-Backend  Node - Basics
+Enter [NodeJS](http://nodejs.org/):
 
-(Not a web server)
+NodeJS allows you to write non-browser based applications in JavaScript. What kind of applications:
+
+* Simple command line scripts
+* Server Side Web Applications
+* [Desktop Apps](https://nodesource.com/blog/node-desktop-applications)
+* [Hardware](http://sbstjn.github.io/noduino/)
+
+####Quick Exercize:
+
+Start by clicking the install link on the  site
+
+Got through the install procedure then create a file called `node_cli_test.js` on your desktop.
+
+Copy and paste the following code on to your desktop:
+
+```
+var fs = require('fs');
+console.log("About to create a file");
+var file_loc = __dirname + '/node_test_file.txt';
+fs.writeFileSync(file_loc, 'This is a test');
+console.log("Successfully created a new file:", file_loc);
+```
+
+Open up your terminal and navigate to your desktop then type the following:
+
+```
+node ./node_cli_test.js
+```
+
+This should exicute the code and create a file on your desk top.
 
 
-Running a script from command line
 
-Require a script
+
+####Using NPM:
+NPM stands for **Node Package Manager**.
+A "Package" is like an angular module. Its library of code to help you complete a task.
+All of the 3rd party packages for NodeJS are managed on [https://www.npmjs.com/](https://www.npmjs.com/).
+
+
+
+####Tutorials:
+http://nodeschool.io/#workshoppers
+
+
+
+
+
+
 
 ###Step 9:
 Express JS
