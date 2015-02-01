@@ -39,6 +39,9 @@ _This is kind of redundant being as you need NodeJS to run express but I guess '
 
 --More important to index than memorize
 
+--Importance of cross-functional skills
+----No silos - SOGOTP
+
 ###Why I started with HTML:
 Though a lot of what I will guide you twards is JavaScript based I started with HTML. T
 he reason is because most of you are familar with web pages.
@@ -91,6 +94,7 @@ I would NOT bother to go through the tutorials on W3 but I would make it a point
 
 #####HTML:
 
+There is acuatlly a pretty good graphic of how HTML is pretty much laid out from a programatical standpoint later on in the [Document Object Model Section](http://www.w3schools.com/js/js_htmldom.asp)
 
 
 The DOM - A living breathing thing
@@ -150,7 +154,9 @@ Once you are familar with Javascript fundementials
 
 
 ###Step 5:
-Learn a framework - Bootstrap
+The next step is to get familar with one of the tools that can be used to make development easier.
+
+####Vanilla JS:
 
 Your probablly sick of your work looking like crap
 
