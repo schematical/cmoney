@@ -36,7 +36,31 @@ _This is kind of redundant being as you need NodeJS to run express but I guess '
 
 ###Step 1:
 
-Open a text editor on your computer
+Open a text editor on your computer. You can use the default but I recomend one of the following:
+
+* Notepad++
+* Sublime
+
+On your desktop create a file called **index.html**
+
+Copy and paste the following into **index.html**
+
+```
+<html>
+    <head>
+        <title>My test web app</title>
+
+    </head>
+    <body>
+        <h1>Hello World</h1>
+    </body>
+</html>
+```
+
+Save the file then open the file in your browser of choice.
+
+_I strongly recomend Chrome_
+
 
 History - xml - html - 
 
