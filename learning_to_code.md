@@ -14,16 +14,16 @@ This post is intended to guid a user from zero coding but a fundemental knowladg
 The MEAN Stack is a combination of web languages and frameworks both serverside and browser side that, when put together, allow developers to rapidly build and scale the web applications you use everyday.
 
 
-####Mongo Database: 
+####[Mongo Database](http://www.mongodb.org/):
 A NoSQL or non relational database. The syntax for interacting with MongoDB is similar to JavaScript.
 
-####ExpressJS:
+####[ExpressJS](http://expressjs.com/):
 Express is a web server framework that runs on NodeJS. Its a highly customizable serverside(sometimes referd to as "Backend" framework.
 
-####Angular JS:
+####[Angular JS](https://angularjs.org/):
 Angular is a browser side or "frontend" framework for building interactive applications that have advanced functionality that runs in the browser.
 
-####Node JS:
+####[Node JS](http://nodejs.org/):
 NodeJS is an extreamly flexable 
 
 
@@ -239,19 +239,17 @@ NPM stands for **Node Package Manager**.
 A "Package" is like an angular module. Its library of code to help you complete a task.
 All of the 3rd party packages for NodeJS are managed on [https://www.npmjs.com/](https://www.npmjs.com/).
 
+You will need to know how to install various packages using NPM. It is pretty simple, just type ` npm install package_name`.
+For example:
 
+`npm install underscore`
 
 ####Tutorials:
-http://nodeschool.io/#workshoppers
-
-
-
-
-
+I don't have a lot of tutorials on NodeJS that I recomend but if you want to play around check out [http://nodeschool.io/#workshoppers](http://nodeschool.io/#workshoppers)
 
 
 ###Step 9:
-Express JS
+[Express JS](http://expressjs.com/) is a
 
 ####Basic Setup
 
