@@ -32,7 +32,22 @@ _This is kind of redundant being as you need NodeJS to run express but I guess '
 ###100x:
 
 
-##How to start:
+
+
+###About this guide:
+
+
+--More important to index than memorize
+
+###Why I started with HTML:
+Though a lot of what I will guide you twards is JavaScript based I started with HTML. T
+he reason is because most of you are familar with web pages.
+ Web pages are built with HTML then made interactive with JavaScript.
+ Some of the concepts in programming are highly intangable and difficult to explain.
+ Starting with HTML should give you a good frame of reference to start out with.
+
+
+
 
 ###Step 1:
 
@@ -99,13 +114,26 @@ Now assuming you are on an https `<img src="//otherwebiste.com/image.jpg">` Woul
 
 
 ###Step 3:
-W 3 Schools HTML
+Since I am not going to even try and compete with the sheer amount of free tutorials on the web and I often use the exact same tutorials as a reference as I build my projects I will now refer you to a series of web tutorials.
 
-http://www.w3schools.com/html/
+####Warning:
+You might be tempted to get side tracked learning everything these tutorials recomend, that is fine and all but remember I crafted this list to get you to a specific destination, those sites may not have the same destination in mind.
+
+
+I suggest you start by familarizing your self(NOT MEMORIZING) the [W3 Schools](http://www.w3schools.com/html/]
+
+
+Areas I suggest you skip:
+* Tables
 
 ###Step 4:
-W 3 Schools JavaScript training
+HTML by nature does not have much brains behind it, its purpus is primarily to look display information in a pretty way.
+Originally HTML was not really intended to perform logical calculations or be interactive beyond linking to other pages.
+Modern HTML/HTML5 has a little but is still limited.
 
+This is where JavaScript comes into play. Javascript allows you to create interactive websites
+
+[W3Schools JavaScript](http://www.w3schools.com/js/default.asp)
 
 ####Advanced JS:
 
