@@ -1,7 +1,6 @@
 ##Intro
 So I am hiring again for my venture 100x(the name is crap, I know. Its a working title). Web developers are in high demand, the higher the level the higher the demand.
 
-//If you ever read the rough draft of my book, [Ship Or Get Off The Pot](), you can
 
 I have had great success taking young untested but highly motivated and intelligent people with very little if any training in web development and have trained them up to become proficient junior developers in a very short time. This isn't to say that eventually they couldn't become senior developers or even reach a web app architect level, that just takes a lot more time and experience.
 
