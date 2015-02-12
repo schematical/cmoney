@@ -54,7 +54,7 @@ Starting with HTML should give you a good frame of reference to start out with.
 
 
 
-###Step 1:
+###Step 1 - Setting up:
 
 Open a text editor on your computer. You can use the default but I recommend one of the following:
 
@@ -119,7 +119,7 @@ Now assuming you are on an https `<img src="//otherwebiste.com/image.jpg">` Woul
 
 
 
-###Step 2:
+###Step 2 - Basic HTML:
 Since I am not going to even try and compete with the sheer amount of free tutorials on the web and I often use the exact same tutorials as a reference as I build my projects I will now refer you to a series of web tutorials.
 
 ####Warning:
@@ -131,7 +131,7 @@ I suggest you start by familarizing your self(NOT MEMORIZING) the [W3 Schools](h
 
 Stop when you hit the section on **HTML Tables** and return to guide for the next steps, Anything past that is not essential to moving toward the goal of this guide so skip it for now but feel free to come back and study later.
 
-###Step 3:
+###Step 3 - JavaScript:
 HTML by nature does not have much brains behind it, its purpose is primarily to look display information in a pretty way.
 Originally HTML was not really intended to perform logical calculations or be interactive beyond linking to other pages.
 Modern HTML/HTML5 has a little but is still limited.
@@ -156,14 +156,23 @@ Once you are familiar with Javascript fundamentals
 [Javascript and the Browser's DOM](http://www.w3schools.com/js/js_htmldom.asp)
 
 
-###Step 4:
-The next step is to get familar with one of the tools that can be used to make development easier.
+###Subsection:
+If you haven't used [git](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics) yet now is the time to get started. Signup for a free [GitHub](http://github.com) and start learning. [Git](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics) is a version control language. It is like Google Docs for Code but a little more complex.
+
+One of the big services on the web is [GitHub](http://github.com) which is an amazing tool. 
+
+####IMPORTANT NOTE:
+ I typically don’t hire any devs that have not published at least something on GitHub. GitHub is like LinkedIn on steroids to developers(at least us open source types. Post anything and everything you are working on, I myself have [a huge list of repos on GitHub](http://github.com/schematical).
+
+
+###Step 4 - Basic Frameworks:
+The next step is to get familiar with one of the tools that can be used to make development easier.
 So far in this guide you have been working with basic js.
 Almost every major web application uses these **Frameworks** to make development easier.
 Each framework does something different. The first framework I will show you is Twitter Bootstrap
 
 ####Bootstrap:
-As a hardcore hacker type Bootstrap is far from the coolest framework I use on the frontend, Angular is much cooler.
+As a hardcore hacker type Bootstrap is far from the coolest framework I use on the frontend, Angular is much more interesting.
 But because of its graphic nature and their for easier to wrap your head around.
 
 Bootstrap was developed to make building **Responsive** Web Pages. This means a page that will easily resize and fit in smaller browsers like mobile and tablets.
@@ -178,29 +187,25 @@ Their getting started page is overly complex. To keep from getting overwhelmed I
 
 
 
-###Step 5:
-Now it is time to learn a bad ass framework, AngularJS. Angualr is a next generation browswer based framework for building really interactive web applications.
+###Step 5 - Advanced Frameworks:
+Now it is time to learn a bad ass framework, AngularJS. Angular is a next generation browser based framework for building really interactive web applications.
 It is quite powerful.
 
 I suggest you start by following the free tutorial on [The Angular homepage](http://campus.codeschool.com/courses/shaping-up-with-angular-js/level/1/section/2/our-first-controller).
 
+I am surprised by how sad Angulars default tutorials are so I will try and give you some bullet points of what you will need to learn to become proficient.
+
+[Modules](https://docs.angularjs.org/api/ng/function/angular.module)
+Basic app setup - `<html ng-app=’yourAppsModuleName’>`
+[HTML binding]( https://docs.angularjs.org/guide/databinding)
+[Directives](https://docs.angularjs.org/guide/directive) - These are crazy powerful snipits of html
+[Controllers](https://docs.angularjs.org/guide/controller)
+[Services](https://docs.angularjs.org/guide/services) - Specifically the all important [ngResource](https://docs.angularjs.org/api/ngResource/service/$resource) for calling out to the server
+
+There is a lot more to angular but that is the basics. There are lots of tutorials, most of which were not around when I was learning Angular. I am actually looking to you to help me find some good ones. Send me any recommendations.
 
 
-####Basic app setup
-
-####Modules
-
-####HTML binding
-
-####Directives
-
-####Controllers
-
-####Save services for last
-
-####http resources
-
-###Step 8:
+###Step 8 - NodeJS:
 Enter [NodeJS](http://nodejs.org/):
 
 NodeJS allows you to write non-browser based applications in JavaScript. What kind of applications:
@@ -210,7 +215,7 @@ NodeJS allows you to write non-browser based applications in JavaScript. What ki
 * [Desktop Apps](https://nodesource.com/blog/node-desktop-applications)
 * [Hardware](http://sbstjn.github.io/noduino/)
 
-####Quick Exercize:
+####Quick Exercise:
 
 Start by clicking the install link on the  site
 
@@ -232,7 +237,7 @@ Open up your terminal and navigate to your desktop then type the following:
 node ./node_cli_test.js
 ```
 
-This should exicute the code and create a file on your desk top.
+This should execute the code and create a file on your desktop.
 
 
 
@@ -251,7 +256,7 @@ For example:
 I don't have a lot of tutorials on NodeJS that I recomend but if you want to play around check out [http://nodeschool.io/#workshoppers](http://nodeschool.io/#workshoppers)
 
 
-###Step 9:
+###Step 9 - Express JS:
 [Express JS](http://expressjs.com/) is a framework for quickly building Sever Side Web Applications using node:
 
 Start out by [Installing](http://expressjs.com/starter/installing.html) express and continuing through their Getting Started and Guide section.
@@ -261,33 +266,35 @@ Their guide section is fairly robust starting with [Routing](http://expressjs.co
 #####Common Middleware:
 Check out the common [3rd party middleware](http://expressjs.com/resources/middleware.html)
 
-Not included in this list but vital is [Passport JS](http://passportjs.org/)
+Not included in this list but vital to workng with our team is [Passport JS](http://passportjs.org/)
 
 
-###Step 10:
-Saving Data with [MongoDB](http://www.mongodb.org/).
+###Step 10 - MongoDB:
+Saving Data with [MongoDB](http://www.mongodb.org/). MongoDB is a NoSQL or non relational database. It makes SQL and most traditional databases look like an excel spreadsheet. You can store complex objects in Mongodb. Those of you that never worked with old school SQL cannot appreciate it but it is huge advantage
 Start by going over the [in browser demo for mongo](http://try.mongodb.org/?_ga=1.263434828.1335229757.1422827841).
 
 Once you feel comfortable you will want to [install MongoDB locally](https://www.mongodb.org/downloads?_ga=1.260764237.1335229757.1422827841) and play around locally.
 
-Finally start playing around with [Mongoose.js](http://mongoosejs.com/), the NodeJS package that we will use to talk to the MongoDB Database.
+Finally start playing around with [Mongoose.js](http://mongoosejs.com/), the NodeJS package that we will use to talk to the MongoDB Database. Most of the basics can be covered in their [Getting Started Guide](http://mongoosejs.com/docs/guide.html). 
 
--
 
-##Advnaced Topics:
+##Step 11 - Advanced Topics:
+I won’t cover this in detail now but this is far from the end of what you can/should learn.  Here are some other things I suggest you start to learn when you get a chance.
+
+
 ###Hosting/Infrastructure:
-
-
+I use [Amazon Web Services](http://aws.amazon.com/) or AWS because I have working with them for the better half of a decaide. I even started to build my own informational product around AWS. There are plenty of other good ones to learn but AWS is pretty amazing once you get your head wrapped around it.
 
 ###Mobile:
-
-####Ionic/Cordova:
-
-
-###Your IDE- Your weapons of choice
+For mobile unless you are a purist or your building some fancy 3d grafic processing tool I strongly suggest using modern rapid prototyping tools such as [The Ionic Framework](http://ionicframework.com/) (Shout out to Max and Ben at Drifty). Ionic allows you to write your web app in HTML and JavaScript then run them in a Browser window inside of a running app on both iOS and Android(they did support other devices now I am not so sure). 
 
 
-####My setup:
-Ubuntu with a 9 workspace setup
+This is possible with the [Cordova](http://cordova.apache.org/) framework. It makes writing these a lot easier. 
+
+[PhoneGap](http://phonegap.com/) takes it a step further by automating a number of the build and deployment processes that you need to do manually with Cordova. Of course they charge a little bit.
+
+
+##Conclusion:
+This little guide was just to get you started on your journey. Go out there and get your hands dirty, play around, come see me about a job, or just have some fun. MEAN Stack developers are in demand right now. I know we are hiring so once you have a couple things on your [GitHub](http://github.com) shoot me an email and lets chat.
 
 
